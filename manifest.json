@@ -1,24 +1,18 @@
 {
-  "version": "1.0.0",
+  "manifestVersion": 1,
+  "generatedAt": "2026-05-20T00:00:00Z",
   "dependencies": {
     "whisper": {
-      "windows": {
-        "binary": {
-          "url": "https://github.com/vishwassharma38/AspectShift-HtoV-Assets/releases/download/v1.0.0-assets/whisper-x86_64-pc-windows-msvc.exe",
-          "filename": "whisper-x86_64-pc-windows-msvc.exe"
-        }
-      }
-    }
-  },
-  "models": {
-    "whisper": {
-      "default": "medium.en",
-      "files": {
-        "medium.en": {
-          "url": "https://github.com/vishwassharma38/AspectShift-HtoV-Assets/releases/download/v1.0.0-assets/ggml-medium.en.bin",
-          "filename": "ggml-medium.en.bin"
-        }
-      }
+      "version": "1.0.0",
+      "sha256": "72FCD655028CE41C82CD8D210BFD59D100956CD4C3C4C7D2CAFE1B926B8680C2",
+      "size": 1,
+      "url": "https://github.com/vishwassharma38/AspectShift-HtoV-Assets/releases/download/v1.0.0-assets/whisper-x86_64-pc-windows-msvc.exe"
+    },
+    "whisper_model_medium": {
+      "version": "1.0.0",
+      "sha256": "CC37E93478338EC7700281A7AC30A10128929EB8F427DDA2E865FAA8F6DA4356",
+      "size": 1,
+      "url": "https://github.com/vishwassharma38/AspectShift-HtoV-Assets/releases/download/v1.0.0-assets/ggml-medium.en.bin"
     }
   }
 }
